@@ -1,5 +1,8 @@
 Feature: Calculator
 
+Background:
+  Given i have loogd in to calculator page
+
   @mytag
   Scenario: Add two numbers
     Given i have enterd 50 into the calculator
